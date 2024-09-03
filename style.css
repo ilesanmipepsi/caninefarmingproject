@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F2F2F2; /* Light tan background */
+}
+
+header {
+  background-color: #1B1B1B; /* Dark black header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #F2F2F2; /* Light tan text */
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  background-color: #444; /* Darker tan hover */
+}
+
+main {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #1B1B1B; /* Dark black headings */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  color: #444; /* Darker tan text */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+footer {
+  background-color: #1B1B1B; /* Dark black footer */
+  color: #F2F2F2; /* Light tan text */
+  text-align: center;
+  padding: 20px;
+}
+
+.icon-spacer {
+    margin: 0 10px; /* Adjust the margin values as needed */
+}
+
+/* Media query for tablets and smaller devices */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
+
+/* Media query for smartphones */
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
