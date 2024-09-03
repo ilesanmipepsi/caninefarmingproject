@@ -5,10 +5,12 @@ body {
 
 header {
   background-color: #1B1B1B; /* Dark black header */
-  display: flex;
+  display: block;
+  position: relative;
   justify-content: center;
   align-items: center;
   padding: 20px;
+ 
 }
 
 nav ul {
@@ -90,4 +92,4 @@ footer {
   p {
     font-size: 14px;
   }
-}
+} 
